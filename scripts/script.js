@@ -1,17 +1,14 @@
 let slideIndex = 0;
-showSlides(); 
+showSlides();
 
 function showSlides() {
   let i;
 
-  /
   let slides = document.getElementsByClassName("image-sliderfade");
 
-  
   let dots = document.getElementsByClassName("dot");
 
   for (i = 0; i < slides.length; i++) {
-    
     slides[i].style.display = "none";
   }
 
